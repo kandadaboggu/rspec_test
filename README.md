@@ -34,18 +34,5 @@ Finished in 0.0013 seconds
 1 example, 0 failures
 ```
 
-
-```
-$rspec --tag use_ff:true
-Run options: include {:focus=>true, :use_ff=>true}
-All examples were filtered out; ignoring {:focus=>true, :use_ff=>true}
-
-Inclusion filter values: {}
-Using Webkit
-.
-Finished in 0.0013 seconds
-1 example, 0 failures
-Randomized with seed 15040
-```
 ### Observations
 - Inclusion filter hash is empty in the `before suite`
